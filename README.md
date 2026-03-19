@@ -97,3 +97,5 @@ $ git push origin main              # ¡A la nube!
 
 bruns@BrunoMatrix MINGW64 ~
 $ git config --list                 # Verificar todo
+
+# Ultima actualizacion: Marzo 2026
