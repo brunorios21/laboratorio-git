@@ -78,24 +78,22 @@ git pull                      // Bajar cambios
 cd ..        // Volver atrás    |  mkdir      // Crear carpeta
 ls -la       // Ver archivos    |  clear      // Limpiar consola
 code .       // Abrir VS Code   |  touch      // Crear archivo
- bruns@BrunoMatrix MINGW64 ~/proyectos/react-js
-$ # --- COMANDOS DE CURSADA ---
 
-$ npm create vite@latest .          # Iniciar Proyecto React
-$ npm run dev                       # Lanzar Servidor Local
-$ npm install axios react-router    # Instalar Librerías
+bruns@BrunoMatrix MINGW64 ~
+$ # --- IDENTIDAD CONFIGURADA ---
+$ git config --global user.name "brunorios21"
+$ git config --global user.email "brunorioscorp@gmail.com"
 
-bruns@BrunoMatrix MINGW64 ~/git/workflow
-$ # --- COMANDOS GIT MASTER ---
+bruns@BrunoMatrix MINGW64 ~/proyectos
+$ # --- INICIAR PROYECTO NUEVO ---
+$ git init                          # Crear repo local
+$ git remote add origin <url>       # Conectar a GitHub
 
-$ git status                        # Ver qué rompí
-$ git add .                         # Preparar todo
-$ git commit -m "feat: login"       # Guardar progreso
-$ git push origin main              # Subir a la nube
+bruns@BrunoMatrix MINGW64 ~/trabajando
+$ # --- CICLO DIARIO (EL COMBO) ---
+$ git add .                         # Preparar cambios
+$ git commit -m "update: fixes"     # Firmar avance
+$ git push origin main              # ¡A la nube!
 
-bruns@BrunoMatrix MINGW64 ~/facultad/unpaz
-$ # --- ATAJOS DE SISTEMAS ---
-
-$ code .                            # Abrir en VS Code
-$ touch .env                        # Crear Variables Entorno
-$ rm -rf node_modules               # El botón de pánico
+bruns@BrunoMatrix MINGW64 ~
+$ git config --list                 # Verificar todo
